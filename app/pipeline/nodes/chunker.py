@@ -45,7 +45,7 @@ def _experience_chunks(cv_data: dict) -> list[Chunk]:
         lines = [
             f"Job Title: {exp.get('title', '')}",
             f"Company: {exp.get('company', '')}",
-            f"Period: {exp.get('start_date', '')} – {exp.get('end_date', '')}",
+            f"Period: {exp.get('start_date', '')} - {exp.get('end_date', '')}",
             f"Description: {exp.get('description', '')}",
         ]
         meta = _base_meta(cv_data, "experience")

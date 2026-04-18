@@ -17,7 +17,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="HR RAG — CV Ingestion Pipeline",
+    title="HR RAG - CV Ingestion Pipeline",
     description=(
         "Upload a PDF CV to extract, chunk, embed, and store candidate data "
         "in Qdrant for semantic talent search."
