@@ -11,4 +11,3 @@ dist/
 build/
 .pytest_cache/
 .cursor/plans/
-.cursor/plans/hr_rag_data_pipeline_1245967e.plan.md

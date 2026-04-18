@@ -4,40 +4,40 @@ overview: Build a Python data pipeline using FastAPI + LangGraph + OpenRouter th
 todos:
   - id: scaffold
     content: "Create project structure: app/, pipeline/, nodes/, services/, config.py"
-    status: pending
+    status: completed
   - id: docker
     content: Write docker-compose.yml for Qdrant local container
-    status: pending
+    status: completed
   - id: deps
     content: Write requirements.txt with all dependencies
-    status: pending
+    status: completed
   - id: config
     content: Write config.py (pydantic-settings) and .env template
-    status: pending
+    status: completed
   - id: schemas
     content: "Write schemas.py: CVData, Chunk, PipelineState Pydantic models"
-    status: pending
+    status: completed
   - id: openrouter-svc
     content: "Write services/openrouter.py: async OpenRouter LLM client"
-    status: pending
+    status: completed
   - id: qdrant-svc
     content: "Write services/qdrant_client.py: connection + collection setup + upsert"
-    status: pending
+    status: completed
   - id: node1
     content: "Write nodes/extractor.py: PDF → GPT-4.1-mini → CVData JSON"
-    status: pending
+    status: completed
   - id: node2
     content: "Write nodes/chunker.py: CVData → field-aware Chunks"
-    status: pending
+    status: completed
   - id: node3
     content: "Write nodes/embedder.py: Chunks → embeddings → Qdrant upsert"
-    status: pending
+    status: completed
   - id: graph
     content: "Write pipeline/graph.py: LangGraph StateGraph wiring all 3 nodes"
-    status: pending
+    status: completed
   - id: api
     content: "Write app/main.py: FastAPI /ingest endpoint that runs the pipeline"
-    status: pending
+    status: completed
 isProject: false
 ---
 
